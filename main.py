@@ -8,7 +8,6 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from sqlalchemy import text
 from sqlalchemy.orm import Session
-
 from conf.db import get_db
 
 app = FastAPI()
